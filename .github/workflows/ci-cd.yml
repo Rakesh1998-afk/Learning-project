@@ -31,7 +31,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.raaki1234}}
-          password: ${{ secrets.Rakesh@1998}}
+          password: ${{ secrets.Rakesh1234}}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
